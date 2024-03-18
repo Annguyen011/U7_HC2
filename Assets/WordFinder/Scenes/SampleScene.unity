@@ -389,6 +389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55183203}
+  - component: {fileID: 55183204}
   m_Layer: 0
   m_Name: Word_4
   m_TagString: Untagged
@@ -416,6 +417,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &55183204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55183202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &59246958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1121,6 +1134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391301085}
+  - component: {fileID: 391301086}
   m_Layer: 0
   m_Name: Word
   m_TagString: Untagged
@@ -1148,6 +1162,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391301086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391301084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &424128344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2367,6 +2393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712308192}
+  - component: {fileID: 712308193}
   m_Layer: 0
   m_Name: Word_3
   m_TagString: Untagged
@@ -2394,6 +2421,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712308193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712308191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &723033429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3662,6 +3701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148234024}
+  - component: {fileID: 1148234025}
   m_Layer: 0
   m_Name: Word_1
   m_TagString: Untagged
@@ -3689,6 +3729,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1148234025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148234023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1220091947
 GameObject:
   m_ObjectHideFlags: 0
@@ -5453,6 +5505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1828444393}
+  - component: {fileID: 1828444394}
   m_Layer: 0
   m_Name: Word_5
   m_TagString: Untagged
@@ -5480,6 +5533,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1828444394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828444392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1910914102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5709,6 +5774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996362633}
+  - component: {fileID: 1996362634}
   m_Layer: 0
   m_Name: Word_2
   m_TagString: Untagged
@@ -5736,6 +5802,18 @@ Transform:
   m_Father: {fileID: 50058669}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1996362634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996362632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c741adc3ed9c14594e5f3223b5dc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2016845238
 PrefabInstance:
   m_ObjectHideFlags: 0
