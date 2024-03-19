@@ -41,5 +41,17 @@ namespace U7_HC
         {
             return curLetterIndex > letterContainers.Length - 1;
         }
+
+        internal string GetWord()
+        {
+            string s = "";
+
+            for (int i = 0;i<letterContainers.Length;i++)
+            {
+                s += letterContainers[i].GetLetter();
+            }
+
+            return s;
+        }
     }
 }

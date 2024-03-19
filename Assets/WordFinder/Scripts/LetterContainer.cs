@@ -32,5 +32,10 @@ namespace U7_HC
         {
             letter.text = obj.ToString();
         }
+
+        internal string GetLetter()
+        {
+            return letter.text;
+        }
     }
 }

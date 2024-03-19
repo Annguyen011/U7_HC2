@@ -29,7 +29,7 @@ namespace U7_HC
         {
             if (ordContainer[currentContainer].InComplete())
             {
-                currentContainer++;
+                CheckOrd();
             }
 
             ordContainer[currentContainer].Add(obj);
@@ -40,6 +40,22 @@ namespace U7_HC
             for (int i = 0; i < ordContainer.Length; i++)
             {
                 ordContainer[i].Initialize();
+            }
+        }
+
+        private void CheckOrd()
+        {
+            string ordRes = WordManager.instance.GetSecretOrd();
+            string ordToCheck = ordContainer[currentContainer].GetWord();
+
+            if (ordRes.Equals(ordToCheck))
+            {
+                print("Finish");
+
+            }
+            else
+            {
+                currentContainer++;
             }
         }
     }
