@@ -27,5 +27,10 @@ namespace U7_HC
         {
             letter.text = "";
         }
+
+        internal void SetLetter(char obj)
+        {
+            letter.text = obj.ToString();
+        }
     }
 }

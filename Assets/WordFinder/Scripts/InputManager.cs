@@ -10,11 +10,29 @@ namespace U7_HC
         [Header("# Elements")]
         [SerializeField] private WordContainer[] ordContainer;
 
-        private void Start()
+        [Header("# Settings")]
+        int currentContainer;
+
+        private void Awake()
         {
             ordContainer = FindObjectsOfType<WordContainer>();
+        }
 
+        private void Start()
+        {
             Initialize();
+
+            KeyboardKey.onKeyPressed += KeyPressedCallBack;
+        }
+
+        private void KeyPressedCallBack(char obj)
+        {
+            if (ordContainer[currentContainer].InComplete())
+            {
+                currentContainer++;
+            }
+
+            ordContainer[currentContainer].Add(obj);
         }
 
         private void Initialize()

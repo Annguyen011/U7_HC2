@@ -10,6 +10,8 @@ namespace U7_HC
         [Header("# Elements")]
         [SerializeField] private LetterContainer[] letterContainers;
 
+        [Header("# Settings")]
+        [SerializeField] private int curLetterIndex;
         private void Awake()
         {
             letterContainers = GetComponentsInChildren<LetterContainer>();
@@ -22,6 +24,22 @@ namespace U7_HC
             {
                 letterContainers[i].Initialize();
             }
+        }
+
+        internal void Add(char obj)
+        {
+            letterContainers[curLetterIndex].SetLetter(obj);
+            curLetterIndex++;
+            if (curLetterIndex > letterContainers.Length - 1)
+            {
+                curLetterIndex = 0;
+            }
+
+        }
+
+        internal bool InComplete()
+        {
+            return curLetterIndex > letterContainers.Length - 1;
         }
     }
 }
