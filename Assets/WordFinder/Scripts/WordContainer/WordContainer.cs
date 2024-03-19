@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace U7_HC
 {
-    public class NewBehaviourScript : MonoBehaviour
+    public class WordContainer : MonoBehaviour
     {
         [Header("# Elements")]
         [SerializeField] private LetterContainer[] letterContainers;
@@ -13,10 +13,10 @@ namespace U7_HC
         private void Awake()
         {
             letterContainers = GetComponentsInChildren<LetterContainer>();
-            Initialize();
+            //Initialize();
         }
 
-        private void Initialize()
+        public void Initialize()
         {
             for (int i = 0; i < letterContainers.Length; i++)
             {
