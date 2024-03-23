@@ -12,6 +12,7 @@ namespace U7_HC
 
         [Header("# Settings")]
         int currentContainer;
+        bool canAddLetter = true;
 
         private void Awake()
         {
@@ -27,8 +28,12 @@ namespace U7_HC
 
         private void KeyPressedCallBack(char obj)
         {
+            if (!canAddLetter) return;
+
             if (ordContainer[currentContainer].InComplete())
             {
+                canAddLetter = false;
+
                 CheckOrd();
             }
 
@@ -55,8 +60,15 @@ namespace U7_HC
             }
             else
             {
+                canAddLetter = true;
                 currentContainer++;
             }
+        }
+
+        public void BackspacePressedCallBack()
+        {
+            ordContainer[currentContainer].RemoveLetter();
+            canAddLetter = true;
         }
     }
 }

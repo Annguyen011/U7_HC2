@@ -46,12 +46,22 @@ namespace U7_HC
         {
             string s = "";
 
-            for (int i = 0;i<letterContainers.Length;i++)
+            for (int i = 0; i < letterContainers.Length; i++)
             {
                 s += letterContainers[i].GetLetter();
             }
 
             return s;
+        }
+
+        internal void RemoveLetter()
+        {
+            if (curLetterIndex < 0)
+            {
+                return;
+            }
+
+            letterContainers[curLetterIndex].Initialize();
         }
     }
 }
