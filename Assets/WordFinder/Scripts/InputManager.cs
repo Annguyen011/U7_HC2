@@ -43,7 +43,7 @@ namespace U7_HC
             }
         }
 
-        private void CheckOrd()
+        public void CheckOrd()
         {
             string ordRes = WordManager.instance.GetSecretOrd();
             string ordToCheck = ordContainer[currentContainer].GetWord();
